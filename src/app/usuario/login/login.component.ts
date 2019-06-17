@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 
 
-@Component( {
+@Component({
   selector: 'login-component',
   templateUrl: 'login.component.html',
-} )
+})
 
-export class LoginComponent{
-verificar() : void {}
+export class LoginComponent {
+  verificar(): void { }
 
 }

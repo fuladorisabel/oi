@@ -15,7 +15,7 @@ export class CadastarUsuarioComponent implements OnInit {
   ngOnInit() {
   }
   salvar() {
- this.banco.list('usuario').push(this.usuario);
+    this.banco.list('usuario').push(this.usuario);
   }
 
 }

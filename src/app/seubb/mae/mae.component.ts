@@ -1,12 +1,17 @@
 import { Component } from '@angular/core';
 
 
-@Component( {
+@Component({
   selector: 'mae-component',
   templateUrl: 'mae.component.html',
-} )
+})
 
-export class MaeComponent{
-verificar() : void {}
+export class MaeComponent {
+  olhos: string;
+  cabelo: string;
+  pele: string;
+verificar(){
+  
+}
 
 }

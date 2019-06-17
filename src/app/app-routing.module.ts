@@ -7,7 +7,7 @@ import { MaeComponent } from './seubb/mae/mae.component';
 import { LoginComponent } from './usuario/login/login.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: '', redirectTo: 'pais', pathMatch: 'full' },
   { path: 'home', loadChildren: './home/home.module#HomePageModule' },
   { path: 'Cadastar-usuario.component', component: CadastarUsuarioComponent },
   { path: 'Pais.component', component: PaisComponent },

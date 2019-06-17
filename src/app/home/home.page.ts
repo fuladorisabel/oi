@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-home',
@@ -8,8 +8,6 @@ import { Router } from '@angular/router';
 })
 export class HomePage {
 
-  constructor(private rota:Router) {}
-   direcionar (){
-     this.rota.navigate(['pais'])
-   }
+  constructor() {}
+
 }
