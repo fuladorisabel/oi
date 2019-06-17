@@ -1,0 +1,31 @@
+<ion-header>
+
+  <ion-toolbar>
+    <ion-title>
+       As características dos Pais
+        </ion-title>
+         </ion-toolbar>
+           </ion-header>
+<ion-content>
+   <ion-label>Olhos do Mãe</ion-label>
+  <ion-list (ngModel)="olhos ">
+     <ion-item>Azul</ion-item>
+     <ion-item>Castanho</ion-item>
+     <ion-item>Verde</ion-item>
+   </ion-list>
+     <ion-label>Cabelo da Mãe</ion-label>
+  <ion-list (ngModel)="cabelo">
+     <ion-item>Loiro</ion-item>
+     <ion-item>Castanho</ion-item>
+     <ion-item>Preto</ion-item>
+   </ion-list>
+     <ion-label>Pele da Mãe</ion-label>
+    <ion-list (ngModel)="pele">
+       <ion-item>Rosada</ion-item>
+       <ion-item>Amarelada</ion-item>
+       <ion-item>Clara</ion-item>
+      <ion-item>Parda</ion-item>
+      <ion-item>Negra</ion-item>
+    </ion-list>
+    <ion-button expand="full" (click)="verificar()">As características do Bebê</ion-button>
+  </ion-content>
