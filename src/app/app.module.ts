@@ -11,7 +11,7 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { CadastarUsuarioComponent } from './usuario/Cadastar-usuario/Cadastar-usuario.component';
+import { CadastarUsuarioComponent } from './usuario/cadastar-usuario/cadastar-usuario.component';
 import { PaisComponent } from './seubb/pais/pais.component';
 import { PaiComponent } from './seubb/pai/pai.component';
 import { MaeComponent } from './seubb/mae/mae.component';

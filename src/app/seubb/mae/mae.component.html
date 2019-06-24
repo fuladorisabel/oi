@@ -6,6 +6,15 @@
   </ion-toolbar>
 </ion-header>
 <ion-content>
+  <ion-item>
+  <ion-label>Olhos do Mãe</ion-label>
+  <ion-select value="brown" okText="Okay" cancelText="Dismiss">
+    <ion-select-option value="brown">Brown</ion-select-option>
+    <ion-select-option value="blonde">Blonde</ion-select-option>
+    <ion-select-option value="black">Black</ion-select-option>
+    <ion-select-option value="red">Red</ion-select-option>
+  </ion-select>
+</ion-item>
   <ion-label>Olhos do Mãe</ion-label>
   <ion-list [(ngModel)]="olhos ">
     <ion-item>Azul</ion-item>

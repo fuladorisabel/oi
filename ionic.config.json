@@ -1,5 +1,7 @@
 {
   "name": "oi",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

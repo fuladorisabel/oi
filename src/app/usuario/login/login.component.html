@@ -8,12 +8,17 @@
 
 <ion-content>
   <ion-item>
-    <ion-label position="floating"> Nome ou Email </ion-label>
-    <ion-input [(ngModel)]="nome ou email"></ion-input>
+    <ion-label position="floating"> Nome </ion-label>
+    <ion-input [(ngModel)]="nome"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating"> Email </ion-label>
+    <ion-input [(ngModel)]="email"></ion-input>
   </ion-item>
   <ion-item>
     <ion-label position="floating"> Senha </ion-label>
-    <ion-input [(ngModel)]="senha"></ion-input>
+    <ion-input type="password" [(ngModel)]="senha"></ion-input>
   </ion-item>
-  <ion-button href="pai">Como será seu filho(a)? </ion-button>
+  <ion-button expand = "full " (click)="verificar()">Entrar</ion-button>
+  <ion-button expand = "full " href="pai">Como será seu filho(a)? </ion-button>
 </ion-content>

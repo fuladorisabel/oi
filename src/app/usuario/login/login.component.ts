@@ -7,6 +7,9 @@ import { Component } from '@angular/core';
 })
 
 export class LoginComponent {
+  nome: string;
+  email: string;
+  senha: number;
   verificar(): void { }
 
 }

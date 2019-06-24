@@ -9,15 +9,16 @@
 <ion-content>
   <ion-item>
     <ion-label position="floating"> Nome </ion-label>
-    <ion-input [(ngModel)]="nome"></ion-input>
+    <ion-input [(ngModel)]="usuario.nome"></ion-input>
   </ion-item>
   <ion-item>
     <ion-label position="floating"> Email </ion-label>
-    <ion-input [(ngModel)]="email"></ion-input>
+    <ion-input [(ngModel)]="usuario.email"></ion-input>
   </ion-item>
   <ion-item>
     <ion-label position="floating"> Senha </ion-label>
-    <ion-input [(ngModel)]="senha"></ion-input>
+    <ion-input type="password" [(ngModel)]="usuario.senha"></ion-input>
   </ion-item>
-  <ion-button href="pai">Entrar</ion-button>
+    <ion-button expand = "full " (click)="salvar()">Salvar</ion-button>
+  <ion-button expand = "full " href="pai">Como será seu filho(a)? </ion-button>
 </ion-content>
