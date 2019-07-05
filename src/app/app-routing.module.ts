@@ -15,6 +15,8 @@ const routes: Routes = [
   { path: 'mae', component: MaeComponent },
   { path: 'login', component: LoginComponent },
   { path: 'listar-usuario', loadChildren: './usuario/listar-usuario/listar-usuario.module#ListarUsuarioPageModule' },
+    { path: 'lista-bb', loadChildren: './seubb/lista-bb/lista-bb.module#ListaBbPageModule' },
+
 
 ];
 

@@ -11,7 +11,6 @@ export class MaeComponent {
   cabelo: string;
   pele: string;
 verificar(){
-  
-}
 
+  }
 }
