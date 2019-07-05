@@ -12,10 +12,10 @@ import { Seubb } from '../entidade/seubb';
 export class ListaBbPage implements OnInit {
   [x: string]: any;
 
-  listaUsuario: Observable<Seubb[]>;
+  listaSeubb: Observable<Seubb[]>;
 
   constructor(private fire: AngularFireDatabase) {
-    this.listabb = this.fire.list<Seubb>('seubb').snapshotChanges().pipe(//busca
+    this.listaSeubb = this.fire.list<Seubb>('seubb').snapshotChanges().pipe(//busca
       map(lista => lista.map(linha => ({
         key: linha.payload.key, ...linha.payload.val()// seja formatado pela chave e pelo valor
       })))
